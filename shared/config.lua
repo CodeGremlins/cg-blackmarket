@@ -30,10 +30,10 @@ Config.IconExtension = 'png'    -- expected extension for ox_inventory web image
 
 -- Discord webhook logging
 Config.Webhook = {
-    Enabled = true,                 -- set true and add URL to enable
-    URL = 'https://discord.com/api/webhooks/1419097027450638488/yNTBJuHT3XEW-0pBhxecOZbV9jO5rMWdcQ7yw4Q9EqVfMX3rz1EG0ywTj7jH9vxPRnQ6',
+    Enabled = false,                 -- set true and add URL to enable
+    URL = '',
     Username = 'Black Market',
-    Avatar = 'https://i.imgur.com/3GZQPQZ.png', -- optional image
+    Avatar = '', -- optional image
     Color = 16711680,                -- decimal embed color (red default)
     UseEmbed = true,
     PingRoleId = nil                 -- optionally set a role ID to ping (string), or nil
@@ -53,7 +53,7 @@ Config.TargetDistance = 2.0
 -- metadata = optional metadata table passed to addItem (use for serial numbers etc.)
 -- Optional field `give` lets you deliver multiple actual items per 1 unit of stock purchased (useful for ammo packs).
 Config.Items = {
-    { name = 'weapon_pistol', label = 'Pistol', price = 25000, max = 5, start = 3 },
+    { name = 'weapon_pistolxm3', label = 'Pistol', price = 25000, max = 5, start = 3 },
     { name = 'ammo-9', label = 'Ammo x30', price = 3500, max = 30, start = 15, give = 30 },
     { name = 'lockpick', label = 'Lockpick', price = 1800, max = 40 },
     { name = 'bandage', label = 'Bandage', price = 750, max = 50 },
